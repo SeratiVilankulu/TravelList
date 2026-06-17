@@ -1,8 +1,8 @@
 function Logo() {
   return (
-    <div>
-      
-    </div>
+    <>
+     <h1>🌴 Far Away</h1> 
+    </>
   )
 }
 

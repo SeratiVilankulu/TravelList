@@ -1,9 +1,9 @@
 function PackingList() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <div className="list">LIST</div>
+    </>
+  );
 }
 
-export default PackingList
+export default PackingList;
