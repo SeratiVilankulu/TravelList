@@ -1,13 +1,12 @@
-import { initialItems } from "./InitialItems.js";
 import Item from "./Item";
 
-function PackingList() {
+function PackingList({ items, onDeleteItem }) {
   return (
     <>
       <div className="list">
         <ul>
-          {initialItems.map((item) => (
-            <Item item={item} key={item.id} />
+          {items.map((item) => (
+            <Item item={item} key={item.id} onDeleteItem={onDeleteItem} />
           ))}
         </ul>
       </div>
